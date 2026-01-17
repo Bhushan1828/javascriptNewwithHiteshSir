@@ -6,6 +6,7 @@ if (x > 4 && y < 10) {
 } else {
   console.log("B");
 }
+
 let isAdmin = true;
 let isLoggedIn = false;
 if (isAdmin || isLoggedIn) {
@@ -21,6 +22,7 @@ if (!temperature < 20) {
   console.log("It's a warm day");
 }
 
+
 let a = 0;
 
 if (a) {
@@ -29,7 +31,7 @@ if (a) {
   console.log("False");
 }
 
-let score = 85;
+let score = 75;
 
 let grade =
   score >= 90
@@ -41,8 +43,8 @@ let grade =
     : "Fail hogaya bhai";
 console.log(grade);
 
-let points = 11;
-let status = points > 100 ? "Gold" : points > 40 ? "Silver" : "Bronze";
+let points = 87;
+let status = points > 80 ? "Gold" : points > 50 ? "Silver" : "Bronze";
 
 console.log(status);
 

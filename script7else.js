@@ -7,7 +7,7 @@ function getVal(val) {
   else return "F";
 }
 
-console.log(getVal(222));
+console.log(getVal(62));
 
 function getMark(mark) {
   if (mark >= 40 && mark <= 64) return "C";

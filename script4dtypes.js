@@ -11,7 +11,7 @@
 //undefined ka matlab aapne variable banaya hai lekin usko value nahi di hai
 //symbol -> unique immutable value
 //future mein hum koi libraries use karenge ab is case mein un libraries me kai baar kuchh
-// fileds hoti hai jinse similar hum bhi bana dete hai aur
+// fileds hoti hai.. jinse similar hum bhi bana dete hai aur
 // galti se humaari banni hui fields us library ki original fileds ko change kar deta hai
 let a = 10; // number
 let b = a; // string
@@ -35,6 +35,9 @@ let aa = "3" + 3; // "33" -> string
 // baaki sab truthy
 // console.log(typeof a); // number
 let result = true + false;
+console.log(typeof result); // number
 let result2 = 10 + "20"; // "1020" -> string
 let result3 = null + 10; // 10 -> number
+console.log(typeof result3);
 let result4 = undefined + 10; // NaN -> number
+console.log(typeof result4);

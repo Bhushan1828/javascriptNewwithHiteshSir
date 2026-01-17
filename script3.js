@@ -15,7 +15,7 @@ var hn = 2; //global scoped variable
 {
   var hn = 113; //global // redeclaration allowed with var
 }
-console.log(hn); //113, var is function scoped or global scoped\
+console.log(hn); //113, var is function scoped or global scoped
 
 let a = 10; // block scoped global variable
 {

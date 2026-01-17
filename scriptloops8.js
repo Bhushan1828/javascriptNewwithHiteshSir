@@ -5,6 +5,7 @@
 
 // kaha se jana hai -> kab rukna hai -> kaise jana hai
 // while
+
 //jab koi garuntee na ho tab while loop use karte hai 
 // 1-40 for loop
 // 20-30 for loop
@@ -56,3 +57,5 @@ for (let i = 1; i <= 60; i++) {
   }
   console.log(i);
 }
+
+

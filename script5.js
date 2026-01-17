@@ -50,4 +50,5 @@ console.log(typeof []); //object
 typeof NaN; //number
 console.log(typeof NaN); //number
 // a instanceof array; // it is use to check the array or not
-// console.log(a instanceof array); // it is use to check the array or not
+// console.log(a instanceof array); 
+//it is use to check the array or not

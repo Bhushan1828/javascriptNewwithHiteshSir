@@ -8,7 +8,7 @@
 //var a = 10;
 //a = 12; //reassignment
 
-//let b = 14; //block scoped, cannot be redeclar
+//let b = 14; //block scoped, cannot be redeclared
 //b = 20;
 
 //Temporal Dead Zone (TDZ) occurs when you try to access a variable before it is declared
