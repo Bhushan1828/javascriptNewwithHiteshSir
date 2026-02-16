@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>OUR another Learning Session going on here</h1>
+    <button id="btn1">STOP</button>
+  </body>
+  <script>
+    const exp = function () {
+      console.log("Hellow Bhushan");
+    };
+
+    const changnew = function () {
+      document.querySelector("h1").innerHTML =
+        "Heyy Bhushan You are very talented JUST DO It Now...";
+    };
+    const changme = setTimeout(changnew, 2000);
+
+    document.querySelector("#btn1").addEventListener("click", function () {
+      clearTimeout(changme);
+      console.log("Stopp Succefully");
+    });
+  </script>
+</html>

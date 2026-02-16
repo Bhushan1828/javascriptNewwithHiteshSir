@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Practice Your Self With full OF confidence..</h1>
+    <button id="start">Start</button>
+    <button id="stop">Stopp</button>
+    <script>
+      const datene = function (str) {
+        console.log(str, Date.now());
+      };
+      //setInterval(datene, 2000, "Hello Bhushan");
+      document.querySelector("#start").addEventListener("click", function () {
+        //console.log("Start Working Here..");
+        timeinter = setInterval(datene, 2000, "Bhushan You are doing Well..");
+      });
+      document.querySelector("#stop").addEventListener("click", function () {
+        clearInterval(timeinter);
+        console.log("Stopped It Successfully");
+      });
+    </script>
+  </body>
+</html>

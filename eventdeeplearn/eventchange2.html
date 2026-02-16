@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .headi{
+        text-transform: capitalize;
+
+      }
+    </style>
+  </head>
+  <body>
+    <h2 id="heading" class="headi">Select Your DEVICE</h2>
+    <select id="select">
+      <option value="samsung">Samsug</option>
+      <option value="vivo">Vio</option>
+      <option value="poco">POCO</option>
+    </select>
+  </body>
+  <script>
+    //change event tab chalta hai jab aapka koi input select ya text area mein koi change hojayee
+    let device = document.querySelector("#select");
+    let changeit = document.querySelector("#heading");
+    device.addEventListener("change", function (e) {
+      changeit.textContent = `${e.target.value} Selected Devices`;
+    });
+  </script>
+</html>
